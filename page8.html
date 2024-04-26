@@ -1,0 +1,61 @@
+<html>
+    <body>
+        <fieldset>
+        <form action="">
+            <table style="width: 100%;">
+                <tr>
+                    <th>Name</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input type="text" style="width: 100%;">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Sex</td>
+                    <td>
+                        <input type="radio" name="gender">
+                        <label for="gender">Male</label>
+                    </td>
+                </tr>
+               <tr>
+                    <td>
+                        <input type="radio" name="gender">
+                        <label for="gender">Female</label>
+                    </td>
+               </tr> 
+               <tr>
+                <td>Eye color</td>
+                <td>
+                <select id="color" name="color">
+                <option value="">green</option>
+                <option value="blue">blue</option>
+                <option value="black">black</option>
+                <option value="brown">brown</option>
+                 </select>
+                </td>
+               </tr>
+               <tr>
+                <td rowspan="2">Check all that apply</td>
+                <td>
+                    <input type="checkbox" name="height">
+                    <label for="height">Over 6 feet tall</label>
+                </td>
+               </tr>
+               <tr>
+                <td>
+                    <input type="checkbox" name="height">
+                    <label for="height">Over 200 pounds</label>
+                </td>
+            </table>
+            <label>Describe your athletic ability:</label>
+            <textarea name="message" rows="10" cols="60">
+
+            </textarea><br>
+            <input type="submit" value="Enter my Information">
+        </form>
+        </fieldset>
+    </body>
+</html>

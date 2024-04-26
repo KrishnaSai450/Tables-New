@@ -1,0 +1,110 @@
+<html>
+    <body>
+        <form action="" style="width: 100%;">
+            <fieldset>
+                <table style="background-color: aqua; width: 100%;" >
+                <tr>
+                    <td colspan="3">
+                        Workshop Registration
+                    </td>
+                    <td>
+                        <select name="options" id="">
+                            <option value="options">More Actions</option>
+                        </select>
+                    </td>
+                </tr>
+                </table>
+                <table>
+                <tr>
+                    <td colspan="4"> <p style="text-decoration: underline;">Register now while the seats are available</p></td>
+                </tr>
+
+               
+                    <tr>
+                       <td> <label for="fname">First Name:</label></td>
+                        <td><input type="text" name="fname"></td>
+                        <td style="text-decoration: underline;">Lunch</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="lname">Last Name:</label>
+                            </td>
+                            <td>
+                            <input type="text" name="lname">
+                        </td>
+                        <td>
+                            <label for="mealOptions">Meal Preference</label>
+                        </td>
+                        <td>
+                            <select  name="mealOptions">
+                                <option value="">vegetarian</option>
+                                <option value="non-vegetarian">Non-Vegetarian</option>
+                            </select>
+                        </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="company">Company Institution</label>
+                        </th>
+                        <td>
+                            <input id="company" type="text" required >
+                        </td>
+                        <td style="text-decoration: underline;">Payment Details</td>
+                    </tr>
+                <tr>
+                    <th><label for="add">Address</label></th>
+                    <td><textarea cols="18" rows="5" id="add"></textarea></td>
+                    <th><label for="payment">Payments Method</label></th>
+                    <td> 
+                        <input type="checkbox" name="payment">
+                        <label>Cash</label><br>
+                        <input type="checkbox" name="payment">
+                        <label>Cheque</label><br>
+                        <input type="checkbox" name="payment">
+                        <label>Demand Draft</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="city">City</label></th>
+                    <td><input type="text" id="city"></td>
+                    <th><label for="dd">DD/Cheque No.</label></th>
+                    <td><input type="text" id="dd"></td>
+
+                </tr>
+                <tr>
+                    <th><label for="state">State/Region/Provience</label></th>
+                    <td>
+                        <select id="state">
+                            <option value="">-Select-</option>
+                        </select>
+                    </td>
+                    <th><label for="drawn">Drawn On(Bank Name)</label></th>
+                    <td><input type="text" id="drawn"></td>
+                </tr>
+                <tr>
+                    <th><label for="country">Country</label></th>
+                    <td>
+                        <select id="country">
+                            <option>-Select-</option>
+                        </select>
+                    </td>
+                    <th><label for="payment">Payable at</label></th>
+                    <td><input type="text" id="payment"></td>
+                </tr>
+                <tr>
+                    <th><label for="mail">Email</label></th>
+                    <td><input type="email" id="mail"></td>
+                </tr>
+                <tr>
+                    <th><label for="number">Phone Number</label></th>
+                    <td><input type="tel" id="number"></td>
+                </tr>
+                </table>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
